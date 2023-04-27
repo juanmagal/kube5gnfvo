@@ -38,6 +38,10 @@ topology_template:
           type: tosca.artifacts.File
           file: Files/Artifacts/free5GC.conf
           deploy_path: /go/src/free5gc/config/free5GC.conf
+        uerouting:
+          type: tosca.artifacts.File
+          file: Files/Artifacts/free5GC.conf
+          deploy_path: /go/src/free5gc/config/uerouting.yaml
       attributes:
         namespace: default
         replicas: 1
