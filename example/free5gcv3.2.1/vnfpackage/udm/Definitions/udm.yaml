@@ -17,7 +17,7 @@ topology_template:
         sw_image_data:
           name: free5gc-control-plane
           provider: free5gmano
-          version: stage3.0.4
+          version: stage3.2.1
           diskFormat: raw
       capabilities:
         virtual_compute:
@@ -29,7 +29,7 @@ topology_template:
       artifacts:
         sw_image:
           type: tosca.artifacts.nfv.SwImage
-          file: free5gmano/free5gc-control-plane:stage3.0.4
+          file: free5gmano/free5gc-control-plane:stage3.2.1
         udm:
           type: tosca.artifacts.File
           file: Files/Artifacts/udmcfg.conf
